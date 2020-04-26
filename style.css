@@ -1,0 +1,22 @@
+.switch{
+    margin-top: 20%;
+    margin-left: 45%;
+    font-size: 200px;
+    color: rgba(10, 255, 0, 0.87);
+}
+
+
+#cb1{
+    display: none;
+}
+#switch-on{
+    display: none;
+}
+input:checked + label { 
+    display:none;
+    
+}
+
+input:checked ~ #switch-on { 
+    display:block;
+}
